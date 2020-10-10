@@ -1,4 +1,4 @@
-From nextcloud:latest
+From nextcloud:20.0.0
 Run apt-get update
 Run apt-get -y install smbclient libsmbclient-dev libgmp-dev libicu-dev sudo
 Run pecl install smbclient

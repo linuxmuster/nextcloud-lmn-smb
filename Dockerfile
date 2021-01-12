@@ -1,6 +1,6 @@
 From nextcloud:20.0.4
 Run apt-get update
-Run apt-get -y install smbclient libsmbclient-dev libgmp-dev libicu-dev sudo libmagickcore-6.q16-3-extra
+Run apt-get -y install smbclient libsmbclient-dev libgmp-dev libicu-dev sudo libmagickcore-6.q16-3-extra redis-server
 Run pecl install smbclient
 Run docker-php-ext-enable smbclient
 Run docker-php-ext-install intl

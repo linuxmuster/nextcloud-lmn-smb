@@ -6,5 +6,5 @@ Run docker-php-ext-enable smbclient
 Run docker-php-ext-install intl
 Run docker-php-ext-install gmp
 Run apachectl restart
-Run /etc/init.d/redis-server start
+Run /etc/init.d/redis-server restart
 Run rm -rf /var/lib/apt/lists/*

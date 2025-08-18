@@ -1,6 +1,6 @@
-FROM nextcloud:31.0.7
+FROM nextcloud:31.0.8
 RUN apt-get update
-RUN apt-get -y install smbclient libsmbclient-dev libbz2-dev libgmp-dev libicu-dev sudo libmagickcore-6.q16-3-extra graphicsmagick ffmpeg
+RUN apt-get -y install smbclient libsmbclient-dev libbz2-dev libgmp-dev libicu-dev sudo libmagickcore-7.q16-10-extra graphicsmagick ffmpeg
 RUN pear install Net_Sieve
 RUN pecl install smbclient
 RUN docker-php-ext-enable smbclient

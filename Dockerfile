@@ -1,4 +1,4 @@
-FROM nextcloud:31.0.9
+FROM nextcloud:31.0.10
 RUN apt-get update
 RUN apt-get -y install smbclient libsmbclient-dev libbz2-dev libgmp-dev libicu-dev sudo libmagickcore-7.q16-10-extra graphicsmagick ffmpeg
 RUN pear install Net_Sieve
